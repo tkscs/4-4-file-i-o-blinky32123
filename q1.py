@@ -3,3 +3,6 @@
 ####
 #### YOUR CODE HERE 
 ####
+with open("q1.txt", "r") as f:
+    for line in f:
+        print(line)

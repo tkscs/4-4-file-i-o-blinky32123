@@ -15,6 +15,8 @@ image = """
 ####
 #### YOUR CODE HERE 
 ####
+with open("hello.html", "w") as f:
+    f.write("webpage")
 
 
 # Write the string `image` to a file called "star.svg"
@@ -23,4 +25,8 @@ image = """
 ####
 #### YOUR CODE HERE 
 ####
+with open("star.svg", "w") as f:
+    f.write("image")
+
+
 
